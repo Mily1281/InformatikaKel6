@@ -39,7 +39,7 @@ function otomatis() {befanimkata();setTimeout(animkata,400);}
    }
 
   function mulaict(){
-    var timeleft = 7;
+    var timeleft = 3;
     var downloadTimer = setInterval(function(){
     timeleft--;
     document.getElementById("ctimer").textContent = timeleft;
